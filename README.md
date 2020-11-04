@@ -42,20 +42,20 @@ def add(num1, num2):  # Takes two arguments
 ### Task 1
 - **Task: Create a function to multiply (\*)**
 ```
-def multiply(num1, num2):  # Defining the function with two arguments
-    return num1 * num2  # Returning the value of one multiplied by the other
+def multiply(num1, num2): 
+    return num1 * num2 
 ```
 ### Task 2
 - **Task: Create a function to do division (/)**
 ```
-def divide(num1, num2):  # Defining the function with two arguments
-    return num1 / num2  # Returning the value of one divided by the other
+def divide(num1, num2):
+    return num1 / num2 
 ```
 ### Task 3
 - **Task: Create a function to do modulo division (%)**
 ```
-def modulo(num1, num2):  # Defining the function with two arguments
-    return num1 % num2  # Returning the value of one modulo the other
+def modulo(num1, num2):
+    return num1 % num2 
 ```
 ### Task 4
 - **Task: Create a function to do exponentials**

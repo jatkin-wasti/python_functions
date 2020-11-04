@@ -33,22 +33,22 @@ subtract(5, 2)  # Calling the function
 
 
 # Task: Create a function to multiply (*)
-def multiply(num1, num2):  # Defining the function with two arguments
-    return num1 * num2  # Printing the value of one multiplied by the other
+def multiply(num1, num2):
+    return num1 * num2
 
 
 # Task: Create a function to do division (/)
-def divide(num1, num2):  # Defining the function with two arguments
-    return num1 / num2  # Printing the value of one divided by the other
+def divide(num1, num2):
+    return num1 / num2
 
 
 # Task: Create a function to do modulo division (%)
-def modulo(num1, num2):  # Defining the function with two arguments
-    return num1 % num2  # Printing the value of one modulo the other
+def modulo(num1, num2):
+    return num1 % num2
 
 
 # Task: Create a function to do exponentials
-def exponent(num1, num2):  # Defining the function with two arguments
+def exponent(num1, num2):
     result = num1  # Creating the variable we wish to print
     for _ in range(num2 - 1):  # This loop will run for the amount of times stored in the num2 variable
         result = result * num1  # Multiplies the current value of the calculation with its original value
