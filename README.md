@@ -19,6 +19,9 @@ def add2(num):
     result = num + 2
     return result
 ```
+- This example adds 2 to the number passed to it
+- Return allows you to easily use the result of the function outside of it
+- When you reach a return statement, it will end the execution of the function
 - A function definition should be followed by 2 blank lines
 - For a function to run you have to call it
 ```
@@ -31,27 +34,31 @@ print(add2(5))
 def add(num1, num2):  # Takes two arguments
     print(num1 + num2)  # Print the result
 ```
+## Best practices
+- Have a small block of code in any function that does one job
+- Comment your code, usually one comment line per line of code
+- Especially comment regarding the result of the function
 ## Tasks
 ### Task 1
-- Task: Create a function to multiply (*)
+- **Task: Create a function to multiply (\*)**
 ```
 def multiply(num1, num2):  # Defining the function with two arguments
     return num1 * num2  # Returning the value of one multiplied by the other
 ```
 ### Task 2
-- Task: Create a function to do division (/)
+- **Task: Create a function to do division (/)**
 ```
 def divide(num1, num2):  # Defining the function with two arguments
     return num1 / num2  # Returning the value of one divided by the other
 ```
 ### Task 3
-- Task: Create a function to do modulo division (%)
+- **Task: Create a function to do modulo division (%)**
 ```
 def modulo(num1, num2):  # Defining the function with two arguments
     return num1 % num2  # Returning the value of one modulo the other
 ```
 ### Task 4
-- Task: Create a function to do exponentials
+- **Task: Create a function to do exponentials**
 ```
 def exponent(num1, num2):  # Defining the function with two arguments
     result = num1  # Creating the variable we wish to print
